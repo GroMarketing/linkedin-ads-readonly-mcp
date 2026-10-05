@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "linkedin-ads": {
+      "command": "npx",
+      "args": ["-y", "linkedin-ads-readonly-mcp@0", "mcp"],
+      "env": {
+        "LINKEDIN_ACCESS_TOKEN": "${LINKEDIN_ACCESS_TOKEN:-}",
+        "LINKEDIN_AD_ACCOUNT_ID": "${LINKEDIN_AD_ACCOUNT_ID:-}",
+        "LINKEDIN_API_VERSION": "${LINKEDIN_API_VERSION:-}"
+      }
+    }
+  }
+}

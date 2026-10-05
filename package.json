@@ -1,0 +1,55 @@
+{
+  "name": "linkedin-ads-readonly-mcp",
+  "version": "0.1.0",
+  "description": "Read-only LinkedIn Ads (Marketing API) MCP server and CLI: accounts, campaigns, performance, demographics, creatives, lead form counts and targeting, for AI agents and the terminal. Runs locally with your own token.",
+  "type": "module",
+  "bin": {
+    "linkedin-ads": "bin/linkedin-ads.mjs",
+    "linkedin-ads-readonly-mcp": "bin/linkedin-ads.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    ".claude-plugin",
+    ".mcp.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "linkedin ads",
+    "linkedin marketing api",
+    "linkedin campaign manager",
+    "ad analytics",
+    "b2b marketing",
+    "paid social",
+    "reporting",
+    "mcp",
+    "mcp-server",
+    "claude-code",
+    "read-only"
+  ],
+  "license": "MIT",
+  "author": "Ro Maldonado",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GroMarketing/linkedin-ads-readonly-mcp.git"
+  },
+  "homepage": "https://github.com/GroMarketing/linkedin-ads-readonly-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/GroMarketing/linkedin-ads-readonly-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.6.5"
+  }
+}

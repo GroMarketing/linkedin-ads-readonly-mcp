@@ -1,0 +1,5 @@
+{
+  "name": "linkedin-ads-readonly-mcp",
+  "owner": { "name": "Ro Maldonado" },
+  "plugins": [{ "name": "linkedin-ads", "source": "./", "description": "Read-only LinkedIn Ads for AI agents and the terminal: accounts, campaigns, performance, demographics, creatives, lead form counts and targeting." }]
+}
