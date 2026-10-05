@@ -1,7 +1,7 @@
 {
   "name": "linkedin-ads-readonly-mcp",
-  "version": "0.1.0",
-  "description": "Read-only LinkedIn Ads (Marketing API) MCP server and CLI: accounts, campaigns, performance, demographics, creatives, lead form counts and targeting, for AI agents and the terminal. Runs locally with your own token.",
+  "version": "0.1.1",
+  "description": "LinkedIn Ads MCP server and CLI (read-only): LinkedIn Campaign Manager reporting for AI agents. Spend, CTR, CPC, cost per lead, demographics, creatives, lead form counts and targeting. Runs locally with your own token.",
   "type": "module",
   "bin": {
     "linkedin-ads": "bin/linkedin-ads.mjs",
@@ -36,7 +36,11 @@
     "mcp",
     "mcp-server",
     "claude-code",
-    "read-only"
+    "read-only",
+    "linkedin mcp",
+    "linkedin ads mcp",
+    "linkedin ads api",
+    "linkedin ads reporting"
   ],
   "license": "MIT",
   "author": "Ro Maldonado",

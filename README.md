@@ -1,6 +1,7 @@
 # linkedin-ads-readonly-mcp
 
-Your LinkedIn Ads data for AI agents and the terminal. Ask what a campaign
+A read-only LinkedIn Ads MCP server: your LinkedIn Campaign Manager data for AI
+agents and the terminal. Ask what a campaign
 spent, what a lead cost, which job titles the ads actually reached, or what a
 campaign is targeting, and get the answer from LinkedIn's Marketing API with
 your own token, on your own machine.
