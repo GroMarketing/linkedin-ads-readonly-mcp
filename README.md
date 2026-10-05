@@ -1,5 +1,7 @@
 # linkedin-ads-readonly-mcp
 
+<p align="center"><img src="https://raw.githubusercontent.com/GroMarketing/linkedin-ads-readonly-mcp/main/.github/social-preview.png" alt="linkedin-ads-readonly-mcp: LinkedIn Ads MCP server and CLI (read-only)" width="100%"></p>
+
 A read-only LinkedIn Ads MCP server: your LinkedIn Campaign Manager data for AI
 agents and the terminal. Ask what a campaign
 spent, what a lead cost, which job titles the ads actually reached, or what a
